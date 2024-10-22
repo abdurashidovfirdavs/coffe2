@@ -1,0 +1,19 @@
+.flex-container{
+       display: flex;
+       height: 500px;
+       background-color: rgb(9, 134, 59);
+       border-radius: 10px;  
+       justify-content: space-evenly;
+       flex-direction: row;
+       align-items: stretch;
+       align-content: space-evenly;
+       flex-wrap: wrap;
+}
+
+.flex-item{
+       padding: 60px 15px;
+       background-color: rgb(215, 222, 228);
+       font-weight: bold;
+       margin: 10px;
+       border-radius: 10px;
+}

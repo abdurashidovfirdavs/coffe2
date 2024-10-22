@@ -1,0 +1,95 @@
+.grid-container{
+       display: grid;
+       grid-template-areas: 
+       "item1 item2 item3 item3"
+       "item1 item5 item5 item6"
+       "item7 item7 item8 item6"
+       "item7 item7 item9 item9";
+       grid-template-columns: 150px 150px 150px 150px;
+       grid-template-rows: repeat(4, 150px);
+       max-width: 720px;
+       width: 100%;
+       margin: 0 auto;
+}
+
+.grid-item{
+       background-color: #80ff8f;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-size: 30px;
+       font-weight: bold;
+       font-family: sans-serif;
+}
+
+.grid-item-bg-blue{
+       background-color: rgb(17, 17, 197);
+}
+
+.grid-item-bg-green{
+       background-color: rgb(67, 255, 67);
+}
+
+.grid-item-bg-pink{
+       background-color: rgb(252, 154, 154);
+}
+
+.grid-item-bg-orange{
+       background-color: orange;
+}
+
+.grid-item-bg-blue2{
+       background-color: rgb(14, 14, 129);
+}
+
+.grid-item-bg-blue{
+       background-color: blue;
+}
+
+.grid-item-bg-red{
+       background-color: red;
+}
+
+.grid-item-bg-green2{
+       background-color: rgb(19, 189, 19);
+}
+
+.grid-item-1{
+       grid-area: item1;
+}
+
+.grid-item-2{
+       grid-area: item2;
+}
+
+.grid-item-3{
+       grid-area: item3;
+}
+
+.grid-item-4{
+       grid-area: item4;
+}
+
+.grid-item-5{
+       grid-area: item5;
+}
+
+.grid-item-6{
+       grid-area: item6;
+}
+
+.grid-item-7{
+       grid-area: item7;
+}
+
+.grid-item-8{
+       grid-area: item8;
+}
+
+.grid-item-9{
+       grid-area: item9;
+}
+
+.grid-item-bg-green3{
+       background-color: green;
+}

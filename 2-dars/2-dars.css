@@ -1,0 +1,32 @@
+.flex-container{
+       padding: 20px;
+       display: flex;
+       background-color: green;
+       border-radius: 10px;
+       gap: 10px;
+       height: 200px;
+       align-items: center;
+}
+
+.flex-item{
+       padding: 60px 15px;
+       background-color: white;
+       border-radius: 15px;
+       flex: 1;
+}
+
+.flex-basis-300{
+       flex-basis: 300px;
+}
+
+.align-self-strech{
+       align-self: flex-start;
+}
+
+.align-self-flex-start{
+       align-self: flex-start;
+}
+
+.align-self-flex-end{
+       align-self: flex-end;
+}
